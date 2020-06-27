@@ -3,6 +3,7 @@ import GlobalStyles from "./components/GlobalStyles";
 import { ThemeProvider } from "emotion-theming";
 import main from "./themes/main";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SearchPage from "./pages/SearchPage";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <GlobalStyles />
       <Router>
         <Switch>
-          <Route exact path="/"></Route>
+          <Route exact path="/">
+            <SearchPage />
+          </Route>
         </Switch>
       </Router>
     </ThemeProvider>
