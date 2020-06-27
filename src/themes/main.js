@@ -4,6 +4,9 @@ const main = {
     background: "#EFEFEF",
     ctaButton: "#2DB4E2",
   },
+  font: {
+    fontFamily: "`Roboto Condensed`, sans-serif",
+  },
 };
 
 export default main;
