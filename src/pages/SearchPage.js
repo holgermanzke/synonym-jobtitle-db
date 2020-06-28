@@ -56,10 +56,16 @@ const ResultsBody = styled.p`
 `;
 
 export default function SearchPage() {
+  const [jobtitle, setJobtitle] = React.useState("");
   return (
     <Container>
       <H1>Suche nach Synonymen</H1>
-      <SearchInput type="text" name="jobtitle-search" />
+      <SearchInput
+        type="text"
+        name="jobtitle-search"
+        value={jobtitle}
+        onChange={(event) => setJobtitle(event.target.value)}
+      />
       <SearchButton>suchen</SearchButton>
       <Results>
         <h2>Vertriebsleiter</h2>
