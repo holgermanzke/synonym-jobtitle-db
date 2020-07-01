@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "jobtitle": "Vertriebsleiter",
+      "english": "Sales Manager",
+      "synonym": [
+        {
+          "id": 1,
+          "synonym": "Verkaufsleiter"
+        },
+        {
+          "id": 2,
+          "synonym": "Key Account Manager"
+        },
+        {
+          "id": 3,
+          "synonym": "Account Manager"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "jobtitle": "Geschäftsführer",
+      "english": "Chief Executive Manager",
+      "synonym": [
+        {
+          "id": 1,
+          "synonym": "Manager"
+        },
+        {
+          "id": 2,
+          "synonym": "CEO"
+        },
+        {
+          "id": 3,
+          "synonym": "Chef"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "jobtitle": "Personalleiter",
+      "english": "Human Resources Manager",
+      "synonym": [
+        {
+          "id": 1,
+          "synonym": "HR Manager"
+        },
+        {
+          "id": 2,
+          "synonym": "COO"
+        }
+      ]
+    }
+  ]
+}
